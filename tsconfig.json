@@ -1,14 +1,16 @@
 {
   "compilerOptions": {
     "rootDirs": [
-      "src/"
+      "src/",
+      "tests"
     ],
     "outDir": "./dist",
     "watch": true,
     "target": "es5",
     "module": "CommonJS",
     "types": [
-      "node"
+      "node",
+      "jest"
     ],
     "moduleResolution": "node",
     "downlevelIteration": true,
@@ -21,7 +23,8 @@
     "node_modules"
   ],
   "include": [
-    "src/**/*.ts"
+    "src/**/*.ts",
+    "tests/**/*.test.ts"
   ],
   "files": [
     "src/index.ts"
