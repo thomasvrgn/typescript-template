@@ -5,6 +5,11 @@
   "main": "src/index.ts",
   "repository": "project-repository-url",
   "author": "Author's username <Author's mail>",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "dev": "./node_modules/.bin/ts-node --project tsconfig.json -r tsconfig-paths/register .\\src\\index.ts",
+    "dev:watch": "nodemon src/index.ts --exec \"npm run dev\" --ignore *.json"
+  },
   "license": "MIT",
   "dependencies": {
     "@types/node": "^14.11.2",
