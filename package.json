@@ -1,0 +1,9 @@
+{
+  "name": "your-project-name",
+  "version": "0.0.1",
+  "description": "Your project description.",
+  "main": "src/index.ts",
+  "repository": "project-repository-url",
+  "author": "Author's username <Author's mail>",
+  "license": "MIT"
+}
