@@ -8,7 +8,10 @@
   "scripts": {
     "build": "./node_modules/.bin/tsc",
     "dev": "./node_modules/.bin/ts-node --project tsconfig.json -r tsconfig-paths/register .\\src\\index.ts",
-    "dev:watch": "nodemon src/index.ts --exec \"npm run dev\" --ignore *.json"
+    "dev:watch": "nodemon src/index.ts --exec \"npm run dev\" --ignore *.json",
+    "lint": "./node_modules/.bin/eslint .",
+    "lint:watch": "./node_modules/.bin/esw **/*.ts -w",
+    "lint:fix": "./node_modules/.bin/eslint . --fix"
   },
   "license": "MIT",
   "dependencies": {
