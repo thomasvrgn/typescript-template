@@ -11,7 +11,9 @@
     "dev:watch": "nodemon src/index.ts --exec \"npm run dev\" --ignore *.json",
     "lint": "./node_modules/.bin/eslint .",
     "lint:watch": "./node_modules/.bin/esw **/*.ts -w",
-    "lint:fix": "./node_modules/.bin/eslint . --fix"
+    "lint:fix": "./node_modules/.bin/eslint . --fix",
+    "test": "./node_modules/.bin/jest",
+    "test:watch": "./node_modules/.bin/jest --watch"
   },
   "license": "MIT",
   "dependencies": {
