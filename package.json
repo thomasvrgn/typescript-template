@@ -13,7 +13,9 @@
     "lint:watch": "./node_modules/.bin/esw **/*.ts -w",
     "lint:fix": "./node_modules/.bin/eslint . --fix",
     "test": "./node_modules/.bin/jest",
-    "test:watch": "./node_modules/.bin/jest --watch"
+    "test:watch": "./node_modules/.bin/jest --watch",
+    "bundle": "./node_modules/.bin/webpack-cli",
+    "bundle:watch": "./node_modules/.bin/webpack-cli --watch"
   },
   "license": "MIT",
   "dependencies": {
