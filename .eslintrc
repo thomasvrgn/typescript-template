@@ -11,5 +11,8 @@
     "eol-last": "off",
     "spaced-comment": "off",
     "linebreak-style": "off"
+  },
+  "env": {
+    "jest": true
   }
 }
